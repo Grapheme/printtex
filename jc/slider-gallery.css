@@ -1,0 +1,133 @@
+.ui-state-default,
+.ui-widget-content
+.ui-state-default,
+.ui-widget-header
+.ui-state-default {
+	background:url(/i/slider-icon.png) 0 0 repeat-x;
+	cursor:pointer;
+	border:none;
+	width:28px;
+	height:29px;
+	margin-top:-4px;
+	margin-left:-14px;
+}
+.ui-slider-horizontal {
+	height:10px;
+	background:#939393;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+.pg_scrollWrapper{
+	margin:30px auto;
+	width:280px;
+	padding:8px 12px;
+	height:10px;
+	background:url(/i/slider-bg.png) 0 0 repeat-x;
+	border:1px solid #FDFDFD;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+}
+.pg_container{
+	width:100%;
+	position:relative;
+	height:460px;
+}
+ul.pg_photos{
+	position:absolute;
+	top:0;
+	left:0;
+	height:460px;
+	width:12188px;
+	list-style-type:none;
+}
+ul.pg_photos li{
+	float:left;
+	position:relative;
+	margin-right:23px;
+}
+ul.pg_photos li a{
+	display:block;
+	border:6px solid #fff;
+	position:relative;
+	-moz-box-shadow:0 0 20px #bdc5c8;
+	-webkit-box-shadow:0 0 20px #bdc5c8;
+	box-shadow:0 0 20px #bdc5c8;
+}
+ul.pg_photos li a span{
+	background:#423B30;
+	opacity:0.6;
+	position:absolute;
+	padding:20px;
+	font-size:12px;
+	top:20px;
+	right:0px;
+	color:#fff;
+	display:none !important;
+}
+ul.pg_photos li img{
+	display:block;
+	border:none;
+}
+
+.thumbnailSlider {
+	position:relative;
+	margin:120px auto 40px;
+	text-align:center;
+}
+ul.ts_container{
+	list-style:none;
+	padding:0;
+	height:17px;
+	text-align:center;
+	display:inline-block;
+}
+ul.ts_container li{
+	float:left;
+}
+ul.ts_container li a{
+	display:block;
+	text-indent:-9000px;
+	width:24px;
+	height:24px;
+	outline:none;
+	background:transparent url(/i/slider-dot.png) no-repeat -24px 0;
+}
+ul.ts_container li a:hover,
+ul.ts_container li.selected a{
+	background-position:0 0;
+}
+ul.ts_container li.ts_thumbnails{
+	display:none;
+	position:absolute;
+}
+ul.ts_container li.ts_thumbnails span{
+	background:transparent url(/i/slider-triangle.png) no-repeat top center;
+	width:15px;
+	height:6px;
+	position:absolute;
+}
+.ts_preview_wrapper{
+	border:5px solid #fff;
+	overflow:hidden;
+	position:relative;
+	-moz-box-shadow:0px 0px 5px #999;
+	-webkit-box-shadow:0px 0px 5px #999;
+	box-shadow:0px 0px 5px #999;
+}
+ul.ts_preview{
+	position:absolute;
+	left:0px;
+	top:0px;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+ul.ts_preview li{
+	float:left;
+}
+ul.ts_preview li img{
+	display:block;
+}

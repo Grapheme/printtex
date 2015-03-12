@@ -1,0 +1,47 @@
+.mod_weather{	border:1px solid #c5c8cf;
+	border-top:2px solid #AABBCC;
+	padding:0 0 5px 0;
+}
+.mod_weather .title{
+	background:#f2f6fa;
+	font-weight:bold;
+	padding:5px 8px 6px 8px;
+}
+.mod_weather .now{
+	background:url('/k2/module/weather/template/default/static/icon-big.png') no-repeat;
+	height:64px;
+	padding:0 0 0 74px;
+	font-size:30px;
+	line-height:64px;
+}
+.mod_weather ul{
+	padding:0 0 0 18px;
+	margin:0;
+}
+.mod_weather li{
+	padding:0;
+	margin:0 0 0 0;
+	list-style:none;
+}
+.mod_weather .tod{
+	float:left;
+	display:block;
+	width:57px;
+	font-size:11px;
+}
+.mod_weather .icon{
+	background:url('/k2/module/weather/template/default/static/icon-small.png') no-repeat;
+	height:16px;
+	padding:0 0 0 25px;
+	font-size:11px;
+	line-height:16px;
+	float:left;
+}
+.mod_weather .clear{
+	clear:both;
+}
+.mod_weather .gismeteo{
+	font-size:10px;
+	padding:5px 0 0 17px;
+	display:block;
+}

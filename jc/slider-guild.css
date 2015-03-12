@@ -1,0 +1,46 @@
+
+#slides {
+	position:relative;
+}
+#slides .slidesContainer {
+    background:#ffffff url(/i/slider-guild-bg.png) 0 0 repeat-x;
+    padding:20px 20px 40px 20px;
+	box-shadow: 0 0 20px #bdc5c8;
+    border-radius:12px;
+}
+#slides .slidesControl img {
+    border-radius:12px;
+}
+#slides .slidesNext,#slides .slidesPrevious {
+    display:none;
+}
+.slidesPagination {
+    position:absolute;
+    bottom:5px;
+    right:15px;
+}
+.slidesPagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+.slidesPagination li a {
+	display:block;
+	width:25px;
+    height:24px;
+	overflow:hidden;
+    color:#555555;
+    font:17px ptsansregular;
+    font-weight: bold;
+    line-height:24px;
+    text-align:center;
+    padding:3px 0 0 1px;
+}
+.slidesPagination li a:hover{
+    text-decoration:none;
+    color:#017bca;
+}
+.slidesPagination li.slidesCurrent a {
+	background-image:url(/i/pagination.png);
+    color:#017bca;
+}
