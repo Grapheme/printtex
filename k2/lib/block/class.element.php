@@ -134,7 +134,7 @@ class BlockElement
 			return false;
         }
 
-        if($sError = $LIB['EVENT']->Execute('BEFORE_EDIT_BLOCK_ELEMENT', &$arPar)){
+        if($sError = $LIB['EVENT']->Execute('BEFORE_EDIT_BLOCK_ELEMENT', $arPar)){
         	$this->Error = $sError;
 			return false;
         }

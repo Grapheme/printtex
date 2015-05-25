@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/printtextil.com/webstat"
+AuthUserFile /var/www/rikardo/data/etc/20449181.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

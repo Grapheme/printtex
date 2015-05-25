@@ -16,7 +16,7 @@ class Event
 
     	foreach($this->Handler[$sEvent] as $sFunc)
     	{
-    		if($sResult = call_user_func($sFunc, &$arPar)){
+    		if($sResult = call_user_func($sFunc, $arPar)){
     			return $sResult;
     		}
     	}
